@@ -1,0 +1,42 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    header ul li:nth-child(9) button {
+        margin-top: 10px;
+    }
+    .offcanvas.show:not(.hiding), .offcanvas.showing {
+        width: 80%;
+        height: 88vh;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        border: none;
+    }
+    .navbar-toggler{
+        border: none;
+        border-radius: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 900px){
+    header ul li:nth-child(9) button {
+        margin-top: 10px;
+    }
+    .offcanvas.show:not(.hiding), .offcanvas.showing {
+        width: 80%;
+        height: 88vh;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        border: none;
+    }
+}
